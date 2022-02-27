@@ -44,7 +44,8 @@ char	*ft_strnchr(const char *str, int len, int c);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 char	*get_next_line(int fd);
-
-
+void	print_options(void);
+void	wrong_syntax(void);
+void	wrong_option(void);
 
 #endif

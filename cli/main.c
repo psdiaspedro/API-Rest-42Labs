@@ -16,16 +16,16 @@ int	main(int argc, char **argv)
 			print_table(&logs);
 		else if(!strcmp(argv[1], "ultimo_request"))
 			print_last_request(&logs);
+		else
+		{
+			printf("Opção invalida\n");
+			printf("\n");
+			print_options();
+		}
+
 	}
 	else
 	{
-		printf("sintaxe errada, tente: ./cli + UMA opção\n");
-		printf("\n");
-		printf("------------------------------------------------------------\n");
-		printf("|                 OPÇÕES DISPONÍVEIS                       |\n");
-		printf("------------------------------------------------------------\n");
-		printf("lista: para gerar uma lista com todos os logs gerados\n");
-		printf("tabela: para gerar uma tabela organizada dos logs gerados\n");
-		printf("ultimo_request: para ter o último request feito\n");
+		wrong_syntax();
 	}
 }
