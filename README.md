@@ -161,6 +161,5 @@ temos algumas opções de execução, são elas:
 - MJSON -> https://github.com/cesanta/mjson
 - MySql -> https://www.mysql.com
 - Thunder Client -> https://www.thunderclient.com
-- Desafio completo -> <a href="https://github.com/42sp/42labs-selection-process-v2-psdiaspedro/blob/main/DESAFIO.md">DESAFIO.md</a>
-- Desafio -> [Diretrizes de contribuição para este projeto](DESAFIO.md)
+- Desafio Completo-> [DESAFIO.MD](DESAFIO.md)
 
