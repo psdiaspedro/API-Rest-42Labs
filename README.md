@@ -78,4 +78,14 @@ Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, vamos la.
 
 #### Rota sobre - /me
 
--
+- O mesmo acontece na rota sobre, a API trabalha apenas com o GET.
+
+![](./img/rota-sobre.png)
+
+- Caso não seja esse método, 404 novamente.
+
+![](./img/rota-sobre-error.png)
+
+#### Rota sobre - /me
+
+#### Rota sobre - /me
