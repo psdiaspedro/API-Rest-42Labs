@@ -4,7 +4,7 @@
 
 <p align="center">
 	<b><i>Documentação do Projeto</i></b><br>
-
+[DESAFIO.MD](README.md/#-referencias)
 ## 🗣️ Resumo Desafio
 - Criar uma API REST que retorna o LOG em um arquivo
 - Criar uma aplicação CLI que consome o arquivo com os logs mostre o resultado
@@ -162,5 +162,4 @@ temos algumas opções de execução, são elas:
 - MySql -> https://www.mysql.com
 - Thunder Client -> https://www.thunderclient.com
 - Desafio Completo-> [DESAFIO.MD](DESAFIO.md)
-[DESAFIO.MD](DESAFIO.md/#-referencias)
 	
