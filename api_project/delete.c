@@ -7,7 +7,7 @@ void delete_data(struct mg_connection *c, struct mg_http_message *message)
 	double		id;
 
 	if (mjson_get_number(message->body.ptr, ft_strlen(message->body.ptr), "$.id", &id))
-	sprintf(query, "DELETE FROM cars WHERE id=%g", id);
+	sprintf(query, "DELETE FROM projects WHERE id=%g", id);
 	if (mysql_query(g_connection, query))
 	{
 		mg_http_reply(c, 400, "", "%s\n", "{\"status\": \"400 BAD REQUEST\"}");

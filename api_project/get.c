@@ -26,7 +26,7 @@ void	show_database(struct mg_connection *c)
 	int			num_fields;
 	int			first;
 
-	if (mysql_query(g_connection, "SELECT * FROM cars"))
+	if (mysql_query(g_connection, "SELECT * FROM projects"))
 		finish_with_error();
 	result = mysql_store_result(g_connection);
 	if (result == NULL)
