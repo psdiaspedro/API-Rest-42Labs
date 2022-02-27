@@ -6,29 +6,29 @@
 	<b><i>Documentação do Projeto</i></b><br>
 
 ## 🗣️ Resumo Desafio
-- Criar uma API REST que retorna o LOG em um arquivo.
-- Criar uma aplicação CLI que consome o arquivo com os logs mostre o resultado.
+- Criar uma API REST que retorna o LOG em um arquivo
+- Criar uma aplicação CLI que consome o arquivo com os logs mostre o resultado
 
-para mais detalhes sobre o desafio, acesse o link na sessao referencias. 
+para mais detalhes sobre o desafio, acesse o link na sessao referencias
 
-A proxima sessão vai dar uma visão macro sobre as duas aplicações.
+A proxima sessão vai dar uma visão macro sobre as duas aplicações
 
 ### 💎 API Rest
-- A API trabalha com 3 métodos: GET, POST e DELETE e 3 rotas: a raiz /, /me e /database. 
-- O resultado das requisições são armazenados em um arquivo de formato txt chamado logs.
-- Dependendo do método e da rota usada consiguimos obter resultados diferentes que serão descritos a seguir. 
+- A API trabalha com 3 métodos: GET, POST e DELETE e 3 rotas: a raiz /, /me e /database
+- O resultado das requisições são armazenados em um arquivo de formato txt chamado logs
+- Dependendo do método e da rota usada consiguimos obter resultados diferentes que serão descritos a seguir
 
 #### Rota raiz - /
 
-Na rota raiz a API trabalha apenas com o método GET e faz uma requisição para uma outra API externa chamada Kanye REST (link em referencias) que retorna aleatóriamente em formato JSON pérolas ditas pelo famoso e polemico raper.
+Na rota raiz a API trabalha apenas com o método GET e faz uma requisição para uma outra API externa chamada Kanye REST (link em referencias) que retorna aleatóriamente em formato JSON pérolas ditas pelo famoso e polemico raper
 
 #### Rota sobre - /me
 
-Nessa rota a API também trabalha apenas com o método GET e retorna em formato JSON informações sobre o seu criador.
+Nessa rota a API também trabalha apenas com o método GET e retorna em formato JSON informações sobre o seu criador
 
 #### Rota banco de dados - /database
 
-Aqui é onde a API trabalha GET, POST e DELETE. Consumindo, adicionando e deletando dados de um banco de dados relacional MYSQL.
+Aqui é onde a API trabalha GET, POST e DELETE. Consumindo, adicionando e deletando dados de um banco de dados relacional MYSQL
 
 #### Arquivo logs.txt
 
@@ -36,14 +36,14 @@ O arquivo contém as seguintes informações sobre a requisição:
 - Método Utilizado
 - Hora da requisição
 - Rota Utilizada
-- Status Code da requisição.
+- Status Code da requisição
 
 ### 👽 Aplicação CLI
-- A aplicação consome o arquivo gerado pela API e as retorna no terminal.
-- Essas informações podem ser exibidas em formatos diferentes de acordo com a solicitação. 
+- A aplicação consome o arquivo gerado pela API e as retorna no terminal
+- Essas informações podem ser exibidas em formatos diferentes de acordo com a solicitação
 
 ### 🔨 Ferramentas Externas
-Para esse projeto foi utilizado algumas ferramentas que serão resumidas a seguir e aprofundadas posteriormente. Lembrando que todos os links estao na sessão referências.
+Para esse projeto foi utilizado algumas ferramentas que serão resumidas a seguir e aprofundadas posteriormente. Lembrando que todos os links estao na sessão referências
 
 #### Mongoose
 - O motor da API. Mongoose é um web server que permite receber e gerênciar as requisições do cliente.
@@ -72,7 +72,7 @@ Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, vamos la.
 ![](./img/rota-raiz.png)
 
 
-- É muito importante essa informação, pois qualquer outro metodo é retornado um 404 (carinha trsite)
+- É muito importante essa informação, pois qualquer outro metodo é retornado um 404
 
 ![](./img/rota-raiz-error.png)
 
@@ -96,7 +96,7 @@ Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, vamos la.
 
 ##### POST: Para adicionar um item no banco de dados.
 
-- Nesse caso no body da requisição precisa ter um arquivo no formato JSON com os detalhes do item a ser adicionado
+- Nesse caso no body da requisição PRECISA ter um arquivo no formato JSON com os detalhes do item a ser adicionado
 
 ![](./img/database-post.png)
 	
@@ -107,5 +107,6 @@ Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, vamos la.
 ##### DELETE: Para deletar um item do banco de dados
 	
 - O delete é feito atravez do ID do item que vai ser removido
+- Nesse caso no body da requisição PRECISA ter um arquivo no formato JSON
 	
 ![](./img/database-delete.png)
