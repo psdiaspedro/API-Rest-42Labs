@@ -86,6 +86,26 @@ Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, vamos la.
 
 ![](./img/rota-sobre-error.png)
 
-#### Rota sobre - /me
+#### Rota database - /database
 
-#### Rota sobre - /me
+- Na rota de banco de dados podemos usar 3 métodos:
+
+##### GET: Para obter informações de todos os itens do banco de dados.
+
+![](./img/database-get.png)
+
+##### POST: Para adicionar um item no banco de dados.
+
+- Nesse caso no body da requisição precisa ter um arquivo no formato JSON com os detalhes do item a ser adicionado
+
+![](./img/database-post.png)
+	
+- Caso a informação esteja errada ou incompleta, bad request é retornado
+
+![](./img/database-post-error.png)
+
+##### DELETE: Para deletar um item do banco de dados
+	
+- O delete é feito atravez do ID do item que vai ser removido
+	
+![](./img/database-delete.png)
