@@ -26,6 +26,17 @@ typedef struct s_logs
 } t_logs;
 
 
+void	print_last_request(t_logs *logs);
+void	print_table(t_logs *logs);
+void	check_method(t_logs *logs, char *line);
+void	check_path(t_logs *logs, char *line);
+void	last_request_path(t_logs *logs, char *line);
+void	last_request_time(t_logs *logs, char *line);
+void	last_request_status(t_logs *logs, char *line);
+void	init(t_logs *logs);
+void	get_report(t_logs *logs);
+
+
 //libft functions
 size_t	ft_strlen(const char *str);
 char	*ft_strjoin(char const *s1, char const *s2);
@@ -33,5 +44,7 @@ char	*ft_strnchr(const char *str, int len, int c);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 char	*get_next_line(int fd);
+
+
 
 #endif
