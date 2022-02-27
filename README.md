@@ -42,7 +42,7 @@ O arquivo contém as seguintes informações sobre a requisição:
 - A aplicação consome o arquivo gerado pela API e as retorna no terminal.
 - Essas informações podem ser exibidas em formatos diferentes de acordo com a solicitação. 
 
-## 🔨 Ferramentas Externas
+### 🔨 Ferramentas Externas
 Para esse projeto foi utilizado algumas ferramentas que serão resumidas a seguir e aprofundadas posteriormente. Lembrando que todos os links estao na sessão referências.
 
 #### Mongoose
@@ -57,14 +57,25 @@ Para esse projeto foi utilizado algumas ferramentas que serão resumidas a segui
 #### MJSON
 - Uma biblioteca que ajuda a converter strings para JSON e vice e versa.
 
-### Thunder CLient
+#### Thunder CLient
 - Uma ferramenta DELICINHA que usada durante todo o desenvolvimento para fazer testes.
 
-## 🌀 Me pede que eu faço, amor. 
-Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, então bora.
+### 🌀 Me pede que eu faço, amor
+Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, vamos la.
 
-tudo o que o cliente prefiza fazer é: PEDIR (tanto uma informação, tanto para adicionar ou deletar algo).
+![](./img/IBAGENS2.jpeg)
 
-para ficar tudo bem explicadinho, vou mostrar com IBAGENS
-[![](./icons/libft.png)](https://github.com/psdiaspedro/libft-42Cursus)
+#### Rota Raiz - /
 
+- Na rota raiz a API trabalha com o metodo GET, então tudo que o cliente PRECISA fazer é um GET (uau)
+	
+![](./img/rota-raiz.png)
+
+
+- É muito importante essa informação, pois qualquer outro metodo é retornado um 404 (carinha trsite)
+
+![](./img/rota-raiz-error.png)
+
+#### Rota sobre - /me
+
+-
