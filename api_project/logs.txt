@@ -29,7 +29,7 @@ Path: /database
 Status: 200
 
 Method: GET
-Request Time: Sun Feb 27 14:00:22 2022
+Request Time: - Sun Feb 27 14:00:22 2022
 Path: /database
 Status: 200
 
@@ -153,3 +153,12 @@ Request Time: Sun Feb 27 14:11:37 2022
 Path: /database
 Status: 200
 
+Method: GET
+Request Time: Sun Feb 27 14:11:37 2022
+Path: /me
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 15:11:17 2022
+Path: /database
+Status: 400
