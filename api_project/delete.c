@@ -1,5 +1,11 @@
 #include "api.h"
 
+/**
+ * @brief Delete um item do banco de dados
+ *
+ * @param c Conexão com o evento
+ * @param message estrutura com as informações da requisição
+ */
 void delete_data(struct mg_connection *c, struct mg_http_message *message)
 {
 	const char	*buf;

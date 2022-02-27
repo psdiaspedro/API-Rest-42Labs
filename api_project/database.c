@@ -1,5 +1,8 @@
 #include "api.h"
 
+/**
+ * @brief Um handler caso de erro ao iniciar o banco de dados
+ */
 void	finish_with_error(void)
 {
 	fprintf(stderr, "%s\n", mysql_error(g_connection));
@@ -7,6 +10,9 @@ void	finish_with_error(void)
 	exit(404);
 }
 
+/**
+ * @brief Inicia a conexão com o banco de dados
+ */
 void	start_database_connection(void)
 {
 	g_connection = mysql_init(NULL);
@@ -23,6 +29,9 @@ void	start_database_connection(void)
 	}
 }
 
+/**
+ * @brief finaliza a conexão com o banco de dados
+ */
 void	finish_database_connection(void)
 {
 	mysql_close(g_connection);

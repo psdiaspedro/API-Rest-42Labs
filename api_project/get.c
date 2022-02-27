@@ -1,5 +1,12 @@
 #include "api.h"
 
+/**
+ * @brief transforma a linha recebida do banco de dados em uma string com formato JSON
+ *
+ * @param buffer buffer com a string
+ * @param i Qual coluna do banco de dados se encontra
+ * @param row linha inteira tirada do banco de dados
+ */
 static char	*string_to_json(char *buffer, int i, char *row)
 {
 	char	*holder;
@@ -18,6 +25,11 @@ static char	*string_to_json(char *buffer, int i, char *row)
 	return (buffer);
 }
 
+/**
+ * @brief Consulta o banco de dados e retorna o JSON com todos os itens contidos
+ *
+ * @param C Conexão do evento
+ */
 void	show_database(struct mg_connection *c)
 {
 	MYSQL_RES	*result;
@@ -51,15 +63,25 @@ void	show_database(struct mg_connection *c)
 
 }
 
+/**
+ * @brief Faz uma request para uma API externa, retorna o JSON e adiciona o log
+ *
+ * @param C Conexão do evento
+ */
 void	kanye_rest(struct mg_connection *c)
 {
 	char	*str;
 
-	str = request_advice();
+	str = request();
 	mg_http_reply(c, 200, "Content-Type: application/json\r\n", "%s\n", str);
 	add_log("GET", "/", 200);
 }
 
+/**
+ * @brief Retorna um JSON com as informações do criador da API
+ *
+ * @param C Conexão do evento
+ */
 void	myself(struct mg_connection *c)
 {
 	char	*str;

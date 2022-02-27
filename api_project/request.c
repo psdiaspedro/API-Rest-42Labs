@@ -1,5 +1,8 @@
 #include "api.h"
 
+/**
+ * @brief Função para armazenar informações da requisição
+ */
 static size_t writecallback(char *contents, size_t size, size_t nmemb, void *userp)
 {
 	size_t			realsize;
@@ -18,7 +21,10 @@ static size_t writecallback(char *contents, size_t size, size_t nmemb, void *use
 	return (realsize);
 }
 
-char	*request_advice(void)
+/**
+ * @brief Faz uma request para outra API
+ */
+char	*request(void)
 {
 	CURL *curl;
 	CURLcode response;
@@ -40,6 +46,5 @@ char	*request_advice(void)
 		curl_easy_cleanup(curl);
 	}
 	curl_global_cleanup();
-	//free(chunk.memory);
 	return(chunk.memory);
 }

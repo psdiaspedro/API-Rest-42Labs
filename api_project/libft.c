@@ -1,5 +1,9 @@
 #include "api.h"
 
+/**
+ * @brief Retorna o comprimento da string
+ * @param str string analisada
+ */
 size_t	ft_strlen(const char *str)
 {
 	size_t	i;
@@ -10,6 +14,11 @@ size_t	ft_strlen(const char *str)
 	return (i);
 }
 
+/**
+ * @brief Concatena duas strings
+ * @param s1 primeira string
+ * @param s2 segunda string
+ */
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t	total_len;

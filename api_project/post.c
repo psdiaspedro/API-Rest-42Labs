@@ -1,5 +1,11 @@
 #include "api.h"
 
+/**
+ * @brief Adiciona um item ao banco de dados
+ *
+ * @param c Conexão com o evento
+ * @param message estrutura com as informações da requisição
+ */
 void populate_table(struct mg_connection *c, struct mg_http_message *message)
 {
 	const char	*buf;

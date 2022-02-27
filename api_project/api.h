@@ -27,7 +27,7 @@ struct memory
 	size_t	size;
 };
 
-char	*request_advice(void);
+char	*request(void);
 void	finish_with_error(void);
 void	start_database_connection(void);
 void	finish_database_connection(void);
