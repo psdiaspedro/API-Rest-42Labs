@@ -162,4 +162,5 @@ temos algumas opções de execução, são elas:
 - MySql -> https://www.mysql.com
 - Thunder Client -> https://www.thunderclient.com
 - Desafio Completo-> [DESAFIO.MD](DESAFIO.md)
-
+[DESAFIO.MD](DESAFIO.md/#-referencias)
+	
