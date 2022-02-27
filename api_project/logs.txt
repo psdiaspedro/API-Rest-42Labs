@@ -18,3 +18,138 @@ Request Time: Sun Feb 27 11:55:03 2022
 Path: /
 Status: 200
 
+Method: GET
+Request Time: Sun Feb 27 13:58:00 2022
+Path: /database
+Status: 200
+
+Method: GET
+Request Time: Sun Feb 27 13:59:02 2022
+Path: /database
+Status: 200
+
+Method: GET
+Request Time: Sun Feb 27 14:00:22 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:01:01 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:01:07 2022
+Path: /database
+Status: 400
+
+Method: DELETE
+Request Time: Sun Feb 27 14:02:18 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:03:14 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:03:17 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:04:29 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:04:31 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:04:31 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:04:48 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:05:46 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:05:48 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:06:19 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:06:40 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:06:48 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:08:12 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:08:44 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:09:05 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:09:32 2022
+Path: /database
+Status: 200
+
+Method: POST
+Request Time: Sun Feb 27 14:10:52 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:11:03 2022
+Path: /database
+Status: 400
+
+Method: POST
+Request Time: Sun Feb 27 14:11:12 2022
+Path: /database
+Status: 200
+
+Method: DELETE
+Request Time: Sun Feb 27 14:11:34 2022
+Path: /database
+Status: 200
+
+Method: DELETE
+Request Time: Sun Feb 27 14:11:35 2022
+Path: /database
+Status: 200
+
+Method: DELETE
+Request Time: Sun Feb 27 14:11:37 2022
+Path: /database
+Status: 200
+

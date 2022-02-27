@@ -8,9 +8,9 @@ static char	*string_to_json(char *buffer, int i, char *row)
 	if (i == 0)
 		holder = ft_strjoin(strdup("\"id\": "), (row));
 	if (i == 1)
-		holder = ft_strjoin(strdup(", \"name\": \""), (row));
+		holder = ft_strjoin(strdup(", \"nome\": \""), (row));
 	if (i == 2)
-		holder = ft_strjoin(strdup(", \"price\": "), (row));
+		holder = ft_strjoin(strdup(", \"fase\": "), (row));
 	buffer = ft_strjoin(buffer, holder);
 	if (i == 1)
 		buffer = ft_strjoin(buffer, "\"");
