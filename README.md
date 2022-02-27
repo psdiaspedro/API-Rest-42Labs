@@ -66,4 +66,5 @@ Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, então bora.
 tudo o que o cliente prefiza fazer é: PEDIR (tanto uma informação, tanto para adicionar ou deletar algo).
 
 para ficar tudo bem explicadinho, vou mostrar com IBAGENS
+[![](./icons/libft.png)](https://github.com/psdiaspedro/libft-42Cursus)
 
