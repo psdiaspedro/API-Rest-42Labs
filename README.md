@@ -61,7 +61,7 @@ Para esse projeto foi utilizado algumas ferramentas que serão resumidas a segui
 - Uma ferramenta DELICINHA que usada durante todo o desenvolvimento para fazer testes.
 
 ### 🌀 Me pede que eu faço, amor
-Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, vamos la.
+Ta bom, mas como tudo isso funciona NA PRÁTICA?.
 
 ![](./img/IBAGENS2.jpeg)
 
@@ -110,3 +110,49 @@ Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, vamos la.
 - Nesse caso no body da requisição PRECISA ter um arquivo no formato JSON
 	
 ![](./img/database-delete.png)
+	
+### 💬 Relatorio Organizado
+
+TUDO LINDO, agora bora acessar o relatorio gerado pela aplição CLI
+
+##### Primeiro, compila o arquivo da pasta cli com o comando abaixo para gerar o executavel cli
+```
+make
+```
+	
+temos algumas opções de execução, são elas:
+
+##### lista: Para obter uma lista com todas as informações das requisições feitas
+```
+./cli lista
+```
+![](./img/cli-lista.png)
+
+##### tabela: Para gerar uma tabela com informações compiladas de todas as requisições
+```
+./cli tabela
+```
+![](./img/cli-tabela.png)
+
+##### ultimo_request: Para obter a informação da última request feito
+```
+./cli ultimo_request
+```
+![](./img/cli-ultimo.png)
+
+É importante especificar uma opção, caso o contrario ocorrerá um erro. Mas não se preocupe, o programa vai mostrar as opções caso isso aconteça.
+
+##### Sem opção
+```
+./cli 
+```
+
+![](./img/cli-sem-opcao.png)
+
+##### Opção errada
+```
+./cli bla
+```
+![](./img/cli-opcao-errada.png)
+
+
