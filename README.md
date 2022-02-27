@@ -7,9 +7,9 @@
 
 ## 🗣️ Resumo Desafio
 - Criar uma API REST que retorna o LOG em um arquivo
-- Criar uma aplicação CLI que consome o arquivo com os logs mostre o resultado
+- Criar uma aplicação CLI que consome o arquivo com os logs e mostre o resultado
 
-para mais detalhes sobre o desafio, acesse o link na sessao referencias
+para mais detalhes sobre o desafio, acesse o link na sessão referências
 
 A proxima sessão vai dar uma visão macro sobre as duas aplicações
 
@@ -20,7 +20,7 @@ A proxima sessão vai dar uma visão macro sobre as duas aplicações
 
 #### Rota raiz - /
 
-Na rota raiz a API trabalha apenas com o método GET e faz uma requisição para uma outra API externa chamada Kanye REST (link em referencias) que retorna aleatóriamente em formato JSON pérolas ditas pelo famoso e polemico raper
+Na rota raiz a API trabalha apenas com o método GET e faz uma requisição para uma outra API externa chamada Kanye REST (link em referencias) que retorna aleatóriamente em formato JSON pérolas ditas pelo famoso e polêmico raper
 
 #### Rota sobre - /me
 
@@ -43,7 +43,7 @@ O arquivo contém as seguintes informações sobre a requisição:
 - Essas informações podem ser exibidas em formatos diferentes de acordo com a solicitação
 
 ### 🔨 Ferramentas Externas
-Para esse projeto foi utilizado algumas ferramentas que serão resumidas a seguir e aprofundadas posteriormente. Lembrando que todos os links estao na sessão referências
+Para esse projeto foi utilizado algumas ferramentas que serão resumidas a seguir e aprofundadas posteriormente. Lembrando que todos os links estão na sessão referências
 
 #### Mongoose
 - O motor da API. Mongoose é um web server que permite receber e gerênciar as requisições do cliente.
@@ -58,7 +58,7 @@ Para esse projeto foi utilizado algumas ferramentas que serão resumidas a segui
 - Uma biblioteca que ajuda a converter strings para JSON e vice e versa.
 
 #### Thunder CLient
-- Uma ferramenta DELICINHA que usada durante todo o desenvolvimento para fazer testes.
+- Uma ferramenta DELICINHA usada durante todo o desenvolvimento para fazer testes.
 
 ### 🌀 Me pede que eu faço, amor
 Ta bom, mas como tudo isso funciona NA PRÁTICA?.
@@ -134,7 +134,7 @@ temos algumas opções de execução, são elas:
 ```
 ![](./img/cli-tabela.png)
 
-##### ultimo_request: Para obter a informação da última request feito
+##### ultimo_request: Para obter a informação do último request feito
 ```
 ./cli ultimo_request
 ```
