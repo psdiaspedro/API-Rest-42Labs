@@ -11,7 +11,7 @@
 
 para mais detalhes sobre o desafio, acesse o link na sessao referencias. 
 
-As proximas duas sessões vão dar uma visão macro sobre as duas aplicações.
+A proxima sessão vai dar uma visão macro sobre as duas aplicações.
 
 ### 💎 API Rest
 - A API trabalha com 3 métodos: GET, POST e DELETE e 3 rotas: a raiz /, /me e /database. 
@@ -55,9 +55,15 @@ Para esse projeto foi utilizado algumas ferramentas que serão resumidas a segui
 - Dispensa apresentações? Um dos bancos de dados mais famosos do mercado.
 	
 #### MJSON
-- Uma biblioteca que ajuda a converter strings para JSON e vice e versa. 
+- Uma biblioteca que ajuda a converter strings para JSON e vice e versa.
 
-## 🌀 Going deep inside the code
-Ta bom, mas como tudo isso funciona embaixo dos panos?
+### Thunder CLient
+- Uma ferramenta DELICINHA que usada durante todo o desenvolvimento para fazer testes.
 
+## 🌀 Me pede que eu faço, amor. 
+Ta bom, mas como tudo isso funciona NA PRÁTICA? ok, então bora.
+
+tudo o que o cliente prefiza fazer é: PEDIR (tanto uma informação, tanto para adicionar ou deletar algo).
+
+para ficar tudo bem explicadinho, vou mostrar com IBAGENS
 
