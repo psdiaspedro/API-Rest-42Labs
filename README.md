@@ -155,4 +155,11 @@ temos algumas opções de execução, são elas:
 ```
 ![](./img/cli-opcao-errada.png)
 
+### 💋 Referências
+
+- Desafio ->
+- Mongose -> https://mongoose.ws/documentation/
+- MJSON -> https://github.com/cesanta/mjson
+- MySql -> https://www.mysql.com
+- Thunder Client -> <a href="https://github.com/42sp/42labs-selection-process-v2-psdiaspedro/blob/main/DESAFIO.md">DESAFIO.md</a>
 
