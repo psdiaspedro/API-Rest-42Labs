@@ -9,7 +9,7 @@
 - Criar uma API REST que retorna o LOG em um arquivo.
 - Criar uma aplicação CLI que consome o arquivo com os logs mostre o resultado.
 
-para mais detalhes sobre o desafio, acesse: https://github.com/42sp/42labs-selection-process-v2-psdiaspedro/blob/main/DESAFIO.md
+para mais detalhes sobre o desafio, acesse o link na sessao referencias. 
 
 As proximas duas sessões vão dar uma visão macro sobre as duas aplicações.
 
@@ -42,8 +42,20 @@ O arquivo contém as seguintes informações sobre a requisição:
 - A aplicação consome o arquivo gerado pela API e as retorna no terminal.
 - Essas informações podem ser exibidas em formatos diferentes de acordo com a solicitação. 
 
-## 🔨 Ferramentas e Bibliotecas externas
+## 🔨 Ferramentas Externas
+Para esse projeto foi utilizado algumas ferramentas que serão resumidas a seguir e aprofundadas posteriormente. Lembrando que todos os links estao na sessão referências.
 
+#### Mongoose
+- O motor da API. Mongoose é um web server que permite receber e gerênciar as requisições do cliente.
+	
+#### Lib Curl
+- Uma biblioteca muito fofis que faz todo o trampo de requisição que foi utilizado para receber o JSON da outra API
+	
+#### MySQL
+- Dispensa apresentações? Um dos bancos de dados mais famosos do mercado.
+	
+#### MJSON
+- Uma biblioteca que ajuda a converter strings para JSON e vice e versa. 
 
 ## 🌀 Going deep inside the code
 Ta bom, mas como tudo isso funciona embaixo dos panos?
